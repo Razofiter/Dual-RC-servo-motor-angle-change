@@ -1,0 +1,26 @@
+--cpu Cortex-M0
+"comandasuprafete\startup_stm32f030x6.o"
+"comandasuprafete\system_stm32f0xx.o"
+"comandasuprafete\stm32f0xx_it.o"
+"comandasuprafete\main.o"
+"comandasuprafete\stm32f0xx_hal_msp.o"
+"comandasuprafete\stm32f0xx_hal_i2c_ex.o"
+"comandasuprafete\stm32f0xx_hal_rcc.o"
+"comandasuprafete\stm32f0xx_hal_adc.o"
+"comandasuprafete\stm32f0xx_hal_tim_ex.o"
+"comandasuprafete\stm32f0xx_hal_rcc_ex.o"
+"comandasuprafete\stm32f0xx_hal.o"
+"comandasuprafete\stm32f0xx_hal_gpio.o"
+"comandasuprafete\stm32f0xx_hal_dma.o"
+"comandasuprafete\stm32f0xx_hal_pwr.o"
+"comandasuprafete\stm32f0xx_hal_pwr_ex.o"
+"comandasuprafete\stm32f0xx_hal_flash_ex.o"
+"comandasuprafete\stm32f0xx_hal_i2c.o"
+"comandasuprafete\stm32f0xx_hal_tim.o"
+"comandasuprafete\stm32f0xx_hal_cortex.o"
+"comandasuprafete\stm32f0xx_hal_adc_ex.o"
+"comandasuprafete\stm32f0xx_hal_flash.o"
+--library_type=microlib --strict --scatter "comandaSuprafete\comandaSuprafete.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "comandaSuprafete.map" -o comandaSuprafete\comandaSuprafete.axf
